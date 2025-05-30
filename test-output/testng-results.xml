@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-30T12:50:53 IST" name="Playwright Test Suite" finished-at="2025-05-30T12:51:18 IST" duration-ms="24422">
+    <groups>
+    </groups>
+    <test started-at="2025-05-30T12:50:53 IST" name="Sample Test" finished-at="2025-05-30T12:51:18 IST" duration-ms="24422">
+      <class name="TestPages.SampleTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:50:53 IST" name="beforeSuite" finished-at="2025-05-30T12:50:53 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:50:53 IST" name="beforeMethod" finished-at="2025-05-30T12:51:06 IST" duration-ms="12951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestPages.SampleTest.testAmazonTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAmazonTitle()[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:51:06 IST" name="testAmazonTitle" finished-at="2025-05-30T12:51:10 IST" duration-ms="3913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonTitle -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:51:10 IST" name="afterMethod" finished-at="2025-05-30T12:51:11 IST" duration-ms="926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAmazonTitle status=SUCCESS method=SampleTest.testAmazonTitle()[pri:0, instance:TestPages.SampleTest@7dfb0c0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:51:11 IST" name="beforeMethod" finished-at="2025-05-30T12:51:13 IST" duration-ms="1648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestPages.SampleTest.testGoogleTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGoogleTitle()[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:51:13 IST" name="testGoogleTitle" finished-at="2025-05-30T12:51:17 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleTitle -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:51:17 IST" name="afterMethod" finished-at="2025-05-30T12:51:18 IST" duration-ms="837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogleTitle status=SUCCESS method=SampleTest.testGoogleTitle()[pri:0, instance:TestPages.SampleTest@7dfb0c0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestPages.SampleTest@7dfb0c0f]" started-at="2025-05-30T12:51:18 IST" name="afterSuite" finished-at="2025-05-30T12:51:18 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestPages.SampleTest -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- Playwright Test Suite -->
+</testng-results>
