@@ -65,10 +65,24 @@ public class TestListener {
 
 	private static void createFoldersIfNotExist() {
 		try {
-			Files.createDirectories(Paths.get(SCREENSHOTS_DIR));
-			Files.createDirectories(Paths.get(REPORTS_DIR));
+			Path reportsPath = Paths.get(REPORTS_DIR);
+			Path screenshotsPath = Paths.get(SCREENSHOTS_DIR);
+
+			Files.createDirectories(reportsPath);
+			if (Files.exists(screenshotsPath)) {
+				// Delete old screenshots
+				Files.list(screenshotsPath).forEach(path -> {
+					try {
+						Files.delete(path);
+					} catch (IOException e) {
+						log.warn("Failed to delete old screenshot: {}", path, e);
+					}
+				});
+			}
+			Files.createDirectories(screenshotsPath);
 		} catch (IOException e) {
-			log.error("Failed to create folders", e);
+			log.error("Failed to create or clean folders", e);
 		}
 	}
+
 }
